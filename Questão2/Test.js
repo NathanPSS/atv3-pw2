@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Fuction_1 = require("./Fuction");
+var a = ["maca", "banana", "mamao"];
+var b = ["maca", "caju", "limao"];
+var c = ["maca", "banana"];
+console.log("2 strings com elementos diferentes");
+console.log((0, Fuction_1.default)(a, b));
+console.log("2 strings com elementos iguais");
+console.log((0, Fuction_1.default)(b, b));
+console.log("2 strings com tamanho diferente");
+console.log((0, Fuction_1.default)(a, c));

@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Fuction_1 = require("./Fuction");
+var a = ["maca", "banana", "mamao"];
+var b = ["maca", "caju", "limao"];
+var aa = [a, b];
+var c = ["maca", "banana", "limao"];
+var cc = [a, c];
+console.log("2 matrizes iguais");
+console.log((0, Fuction_1.default)(aa, aa));
+console.log("2 matrizes diferentes");
+console.log((0, Fuction_1.default)(aa, cc));
